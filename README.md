@@ -2,6 +2,8 @@
 
 A simple hook to paginate any dataset in JavaScript
 
+![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/rpodwika/use-paginator/2)
+
 ## Usage 
 
 ```

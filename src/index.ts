@@ -1,0 +1,1 @@
+export { usePaginator } from './usePaginator'
