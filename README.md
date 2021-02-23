@@ -2,7 +2,10 @@
 
 A simple hook to paginate any dataset in JavaScript
 
-![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/rpodwika/use-paginator/2)
+[![GitHub issues](https://img.shields.io/github/issues/rpodwika/use-paginator)](https://github.com/rpodwika/use-paginator/issues)
+[![GitHub forks](https://img.shields.io/github/forks/rpodwika/use-paginator)](https://github.com/rpodwika/use-paginator/network)
+[![GitHub stars](https://img.shields.io/github/stars/rpodwika/use-paginator)](https://github.com/rpodwika/use-paginator/stargazers)
+[![GitHub license](https://img.shields.io/github/license/rpodwika/use-paginator)](https://github.com/rpodwika/use-paginator/blob/master/LICENSE)
 
 ## Usage 
 
