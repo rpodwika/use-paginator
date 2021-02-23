@@ -1,0 +1,28 @@
+{
+  "name": "use-paginator",
+  "version": "0.1.0",
+  "description": "Hook for a simple pagination",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpodwika/use-paginator.git"
+  },
+  "keywords": [
+    "react",
+    "pagination",
+    "paginator",
+    "hook",
+    "paginator-hook",
+    "pagination-hook",
+    "pages"
+  ],
+  "author": "Robert Podwika",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rpodwika/use-paginator/issues"
+  },
+  "homepage": "https://github.com/rpodwika/use-paginator#readme"
+}
