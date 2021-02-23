@@ -24,10 +24,12 @@ jobs:
       - name: Build the project
         run: |
           echo Starting the build
+          npm i
           npm run build
 
       # Runs a set of commands using the runners shell
       - name: Run tests with coverage and generate badges
         run: |
           echo Running tests with coverage
+          npm i
           npm run test:badges
