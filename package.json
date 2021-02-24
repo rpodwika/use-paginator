@@ -1,7 +1,7 @@
 {
-  "name": "use-paginator",
+  "name": "@rpodwika/use-paginator",
   "version": "0.1.0",
-  "description": "Hook for a simple pagination",
+  "description": "React Hook for a simple pagination",
   "main": "dist/index.js",
   "scripts": {
     "build": "rollup -c",
