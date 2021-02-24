@@ -1,6 +1,6 @@
 {
   "name": "@rpodwika/use-paginator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Hook for a simple pagination",
   "main": "dist/index.js",
   "scripts": {
