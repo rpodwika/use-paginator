@@ -68,6 +68,34 @@ describe('usePaginator tests', () => {
         expect(result.current.currentPage).toBe(2)
     })
 
+    it('Should not move backwards when there is no page to display', () => {
+        const pageSize = 2
+        const {
+            result
+        } = renderHook(() => usePaginator(dataSample, pageSize))
+
+        act(() => {
+            result.current.setCurrentPage(1)
+            result.current.prevPage()
+        })
+
+        expect(result.current.currentPage).toBe(1)
+    })
+
+    it('Should not move forward when there is no page to display', () => {
+        const pageSize = 4
+        const {
+            result
+        } = renderHook(() => usePaginator(dataSample, pageSize))
+
+        act(() => {
+            result.current.setCurrentPage(2)
+            result.current.nextPage()
+        })
+
+        expect(result.current.currentPage).toBe(2)
+    })
+
     it('Should move to any page', () => {
         const pageSize = 2
         const pageToGo = 3

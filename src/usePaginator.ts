@@ -30,8 +30,8 @@ type IUsePaginator = {
  * @property {prevPage} a function when invoked move to the previous page
  */
 export const usePaginator = (itemsList: any[], maxItemsPerPage: number = 9): IUsePaginator => {
-  const [items, setItems] = useState(itemsList)
-  const [currentPage, setCurrentPage] = useState(1)
+  const [items, setItems] = useState<any[]>(itemsList)
+  const [currentPage, setCurrentPage] = useState<number>(1)
 
   const isPaginating: boolean = items.length > maxItemsPerPage
   const totalPages: number = Math.ceil(items.length / maxItemsPerPage)
