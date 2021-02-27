@@ -63,6 +63,19 @@ const Component = () => {
 }
 ```
 
+Async calls, in case "data" prop changes you'll need to use useEffect function 
+
+
+```
+useEffect(() => {
+    setItemList(data)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [data])
+```
+
+Eslint exhaustive deps is needed because function reference is passed. Probably, in the next major version I'll make it work with 
+references to make it more friendly
+
 # Contributions
 
 If you want to contribute, please open a pull request 
